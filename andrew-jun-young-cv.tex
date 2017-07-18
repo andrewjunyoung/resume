@@ -12,9 +12,11 @@
 
 % Packages and document configurations
 
-\documentclass[10pt,a4paper]{article}
+\documentclass[10pt,a4paper]{xun-cv}
+
 \include{structure}
 
+\usepackage[left=0.75in, top=0.6in, right=0.75in, bottom=0.6in]{geometry}
 \usepackage{multicol}
 
 \begin{document}
@@ -23,10 +25,11 @@
 % Name And Contact Information
 %-------------------------------------------------------------------------------
 
-\header{Andrew J. Young}
+\name{Andrew J. Young}
 
 \noindent\href{mailto:andrew-young16@imperial.ac.uk}{andrew-young16@imperial.ac.uk}\bull
 +44 79 1406 9349\bull
+\href{http://tinyurl.com/ajy-linkedin}{http://tinyurl.com/ajy-linkedin}
 %\href{http://www.andrewjunyoung.com}{www.andrewjunyoung.com}
 \\
 
@@ -43,7 +46,7 @@
 \textsc{\textbf{Imperial College London}}
 Computer Science and Mathematics (MEng)
 Member to Debating Society, Dept. of Computing Society, Mathematics Society, 
-Imperial Snowsports, Finance \& Investment Society
+Imperial Snowsports, Finance \& Investment Society, Soup Run
 
 \textsc{\textbf{Queen Elizabeth's School, Barnet}}
 A2: 4 A\*s in Math, Further Math, Physics, and Chemistry
@@ -101,6 +104,8 @@ GCSE: 13 A\^s
 % Achievements
 %-------------------------------------------------------------------------------
 
+\begin{section}{Achievements}
+
 \begin{itemize}
     \item \textbf{\textit{2016} Constructed and launched an H-class high-powered rocket} in a team of 4. Apogee was reached at 1.5 km before returning to ground in a state fit for reuse.
     \item \textbf{\textit{2015} Completed the UCL-Japan Young Challenge}, participating in a cultural exchange and Japanese language programs in the UK.
@@ -114,6 +119,9 @@ GCSE: 13 A\^s
 %-------------------------------------------------------------------------------
 % Languages
 %-------------------------------------------------------------------------------
+
+\begin{section}{Languages}
+
 \textbf{English:} Native
 \textbf{Japanese:} Fluent (N2: 94th pctl)
 \textbf{Chinese:} Intermediate
@@ -122,8 +130,11 @@ GCSE: 13 A\^s
 
 \columnbreak
 %-------------------------------------------------------------------------------
-% Technical Skills
+% Technical skills
 %-------------------------------------------------------------------------------
+
+\begin{section}{Technical skills}
+
 \textbf{Software Langs:} 
     Java, HTML, Python, Haskell, CSS, \LaTeX, x86 Assembly, C, mySQL
 \textbf{Software Tools:} 
@@ -134,4 +145,3 @@ GCSE: 13 A\^s
 
 \end{multicols}
 
-\end{document}
