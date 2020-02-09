@@ -1,0 +1,52 @@
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./jane_street.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size10.clo))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel-english/english.ldf
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.def
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel/xebabel.def))))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifvtex.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty))
+(./jane_street.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--26
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--40
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--50
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--63
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--70
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--75
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+
+[1] (./jane_street.aux) )
+(see the transcript file for additional information)
+Output written on jane_street.pdf (1 page).
+Transcript written on jane_street.log.

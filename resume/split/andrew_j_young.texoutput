@@ -1,20 +1,20 @@
 This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex)
  restricted \write18 enabled.
 entering extended mode
-(./full/andrew-j-young-cv.tex
+(./andrew_j_young.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
-
-! LaTeX Error: File `resume.cls' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: cls)
-
-Enter file name: 
+Runaway argument?
+! Paragraph ended before \@fileswith@ptions was complete.
+<to be read again> 
+                   \par 
+l.29 
+     
+? 
 ! Emergency stop.
-<read *> 
-         
-l.16 ^^M
-        
+<to be read again> 
+                   \par 
+l.29 
+     
 No pages of output.
-Transcript written on andrew-j-young-cv.log.
+Transcript written on andrew_j_young.log.

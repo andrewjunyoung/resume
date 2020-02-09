@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.6.3)  22 SEP 2018 22:42
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.6.3)  22 JAN 2020 10:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -125,18 +125,18 @@ LaTeX Warning: Unused global option(s):
 (./andrew-j-young-cv.aux)
 \openout1 = `andrew-j-young-cv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -173,21 +173,33 @@ LaTeX Font Info:    ... okay on input line 29.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 29.
+(Font)              <7> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 29.
+(Font)              <5> on input line 25.
 
-Overfull \hbox (30.0pt too wide) in paragraph at lines 29--29
+Overfull \hbox (30.0pt too wide) in paragraph at lines 25--25
 [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
+
  []
 
 [1
 
-] [2] (./andrew-j-young-cv.aux) ) 
+]
+Overfull \hbox (4.85936pt too wide) in paragraph at lines 224--230
+[]\OT1/cmr/bx/n/10 Core com-pe-ten-cies\OT1/cmr/m/n/10 : Ag-ile method-olo-gies
+; Data sci-ence; Net-work, web, and ap-pli-ca-tion se-cu-rity (SQL, Javascript,
+
+ []
+
+[2] (./andrew-j-young-cv.aux) ) 
 Here is how much of TeX's memory you used:
  969 strings out of 493591
  13374 string characters out of 6143547
- 79387 words of memory out of 5000000
+ 79383 words of memory out of 5000000
  4425 multiletter control sequences out of 15000+600000
  5259 words of font info for 19 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
