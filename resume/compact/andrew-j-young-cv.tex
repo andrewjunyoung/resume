@@ -1,222 +1,201 @@
-/%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% AJY Curriculum Vitae
-% Version 0.0 (2017-07-17)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% AJY Resume (full)
+% Version 0.0 (2019-05-12)
 %
 % Author:
-% Andrew Jun Young (andrewjunyoung1@gmail.com)
+% Andrew J. Young (andrewjunyoung1@gmail.com)
 %
 % License:
 % None
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%-------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%-------------------------------------------------------------------------------
+%% Begin Packages and document configuration %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[10pt]{resume} % Use the custom resume.cls style
 
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
 \usepackage{multicol}
-\usepackage{mpoint}
 
 \name{Andrew J. Young} % Your name
-\address{(+44)7914069349 \\ % Phone number
-         andrew.young16@imperial.ac.uk \mpoint \\ % Email
-         bit.ly/ajylinkedin \mpoint} % LinkedIn
+\address{andrewjunyoung1@gmail.com \\ % Email
+         bit.ly/ajylinkedin % LinkedIn
+         (Please get in touch by email) % Email me man
+       }
 
 \begin{document}
 
-%------------------------------------------------------------------------------
-%	EDUCATION SECTION
-%------------------------------------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% End Packages and document configuration %%
+%% Begin Education %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{rSection}{Education}
 
-{\bf Imperial College London} \hfill {\em 2016-2019} \\ 
-Computer Science and Mathematics (BEng)\smallskip\\
-Societies: Debating, Dept. of Computing (DoCSoc), Mathematics, Finance,
-Investment
-
-{\bf Queen Elizabeth's School, Barnet} \hfill {\em 2009-2016} \\ 
-A2: 4 A*s (highest) in Math, Further Math, Physics, and Chemistry; GCSE: 13 A*s (highest)
-
-% INTERESTS
-
-%\textbf{Interests (no particular order)}:
-%  Algorithms (High-performance, high-assurance, financial),
-%  AI (Reinforcement learning, deep learning),
-%  Security \& cryptography,
-%  Big data,
-%  Quantum computing (algorithms, security).
+  \begin{center}
+  \begin{tabular}{ c c }
+    {\bf Imperial College London} & {\bf Queen Elizabeth's School, Barnet} \\
+    Computer Science and Mathematics (BEng) -- 2-1 honors &
+    A levels -- 4 A*s (highest); GCSE -- 14 A*s (highest) \\
+  \end{tabular}
+  \end{center}
 
 \end{rSection}
 
-%-------------------------------------------------------------------------------
-%	PROFESSIONAL EXPERIENCE
-%-------------------------------------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% End Education %%
+%% Begin Previous employment %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{rSection}{Professional Experience}
+\begin{rSection}{Experience}
 
-%-------------------------------------------------------------------------------
+  %-------------------------------------------------------------------------------
 
-\begin{rSubsection}{Quantitative Risk (qRisk), JPMorgan Chase}{Jun 2018-Aug 2018}{Software
-Developer}{London, UK}
-  \item Developed the overnight batch process for the company's risk platform,
-  interacting with APIs and legacy code.
-  \item \textbf{Keywords:} Python, HPC, Protobuf, XML, JSON, Kafka, Compression,
-  Caching
-\end{rSubsection}
+  \begin{rSubsection}{Global Technology Infrastructure, JPMorgan Chase}
+    {(intern) 2018 Jun - Sep; (full-time) from 2019 Sep}{Software Developer}{London, UK}
+  \item Led the team's transition to cloud microservices, designed cloud
+    architecture, and wrote the core API package.
+  \item Owned a data collection component for VMWare hardware. Test coverage 30
+    \% $\rightarrow$ 90 \%; runtime 35 times faster
+  \item Built customer facing APIs for describing and evaluating system state.
+    0 to production API in 3 months.
+  \item Trained in agile; certified in application security and threat modeling.
+  \end{rSubsection}
 
-%-------------------------------------------------------------------------------
+  %-------------------------------------------------------------------------------
 
-\begin{rSubsection}{Opesci Group, Imperial College London}{May 2017 - Aug 2017}{Research Intern}{London, UK}
-    \item Solved complex ODEs using python; implemented these using the
-    team's package; adding to the codebase.
-    \item Wrote tutorials in Jupyter notebook for solving ODEs.
-\end{rSubsection}
+  \begin{rSubsection}{The Mix}
+    {2019 Sep -- 2020 July}{Software Developer}{London, UK}
+  \item Worked alongside the charity's development team to migrate their
+    APIs to ElasticSearch and AWS lambdas. Improved the relevance of search
+    results and handed over the to The Mix in production.
+  \end{rSubsection}
 
-%-------------------------------------------------------------------------------
+  %-------------------------------------------------------------------------------
 
-\begin{rSubsection}{JPMorgan Chase}{Apr 2017}{Spring into Technology}{London, UK}
-    \item Shadowed employees from software divisions and engaged in group
-    coding projects.
-\end{rSubsection}
+  \begin{rSubsection}{Workspace analytics, BP}
+    {2018 Sep - 2019 Jan}{Data analytics}{London, UK}
+  \item Used python, R, and ML to find and visualize patterns in employee data,
+    and present this to clients.
+  \end{rSubsection}
 
-%-------------------------------------------------------------------------------
-%
-%\begin{rSubsection}{Morgan Stanley}{Mar 2017}{Spring Insight: Technology}{London, UK}
-%    \item Shadowed tech divisions and learned about the applications of
-%    technology in banks.
-%\end{rSubsection}
-%
-%-------------------------------------------------------------------------------
+  %-------------------------------------------------------------------------------
 
-\begin{rSubsection}{Hoteling}{Jul 2016 - Sep 2016}{Asakusa Guest House Manager}{Tokyo, JP}
-    \item Managed a 4 story guest house, developed a language acquisition
-    program for international students, and performed English-Japanese-Chinese
-    translation.
-\end{rSubsection}
+  \begin{rSubsection}{Opesci Group, Imperial College London}
+    {2017 Jun - Sep}{Research Intern}{London, UK}
+  \item Used math and python to solve complex ODEs (stencil problems) for
+    diffusion, and wrote tutorials in Jupyter.
+  \end{rSubsection}
 
-%%-------------------------------------------------------------------------------
-%
-%\begin{rSubsection}{Queen Elizabeth's School}{Sep 2014 - Jun 2016}{Volunteer Japanese Teacher}{London, UK}
-%    \item Ran weekly lessons and taught a class of students Japanese to enable
-%    them to pass the JLPT N5.
-%    \item Organized a letter exchange program with a high school in Tokyo.
-%\end{rSubsection}
-%
-%-------------------------------------------------------------------------------
-%
-%\begin{rSubsection}{BlueCrest Capital Management}{Jul 2014}{Work Experience}{London, UK}
-%    \item Shadowed employees of the Volatility Arbitrage Group and technology
-%    teams.
-%\end{rSubsection}
-%
-%-------------------------------------------------------------------------------
+  %-------------------------------------------------------------------------------
+
+  \begin{rSubsection}{Hoteling}
+    {2016 Jun - Sep}{Asakusa Guest House Manager}{Tokyo, JP}
+      \item Managed a 4 story guest house, developed a language acquisition
+      program for international students, and performed English-Japanese-Chinese
+      translation. Customer reviews of their stay all $\ge 4$ stars.
+  \end{rSubsection}
 
 \end{rSection}
 
-%-------------------------------------------------------------------------------
-% Projects
-%-------------------------------------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% End Previous employment %%
+%% Begin Projects %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{rSection}{Projects}
-    \item \textbf{\textit{BP Space Analytics (Python, R)}} Given historical
-    data from BP about employee habits, used data science and machine learning
-    techniques to produce various visualizations and security analyses to draw
-    conclusions.
-    \item \textbf{\textit{Quest.io} (Javascript)} Created a web application
-    using React Native, mongoDB, and REST APIs which implemented a voting
-    platform, chat, and a route planning algorithm for groups to plan daily
-    travel routes.
-    \item \textbf{\textit{Pintos} (C)} Built on top of a legacy code base in
-    order to produce a fully functional concurrent OS.
-    \item \textbf{\textit{PlugInBaby} (Python, node.js)} An IOTA web app
-    to finds charging stations and transacts automatically on the IOTA tangle.
-    Designed in cooperation with the IOTA developers.
-    \item \textbf{\textit{WACC compiler} (C)} Designed and built a fully
-    in-house compiler and code-generator from WACC into Arm11.
-    \item \textbf{\textit{Arm11 compiler} (C)} Built a compiler into C for the
-    Arm11 language with code compiling on a raspberry pi.
-\end{rSection}
 
-%-------------------------------------------------------------------------------
-% Achievements
-%-------------------------------------------------------------------------------
-%
-%\begin{rSection}{Achievements}
-%    \item \textbf{\textit{2017} IOTA Hack winner}
-%    Designed and built the winning design, which finds charging stations and
-%    transacts for electricity automatically on the IOTA tangle.
-%    \item \textbf{\textit{2016} Constructed and launched an H-class high-powered rocket}
-%    in a team of 4. Apogee was reached at 1.5 km before returning to ground in
-%    a state fit for reuse.
-%    \item \textbf{\textit{2016} Scored in the 94th percentile in the JLPT N2 exam.}
-%    \item \textbf{\textit{2015} Completed the UCL-Japan Young Challenge},
-%    participating in a cultural exchange and Japanese language programs in the
-%    UK.
-%    \item \textbf{\textit{2014} President and founder of an ISSDC finalist team.}
-%    Founded an independent finalist team to the International Space Settlement
-%    Design Competition. Elected company president at the national and
-%    international finals.
-%    \item \textbf{\textit{2014} Grade 8 Cello with distinction}
-%\end{rSection}
-
-%-------------------------------------------------------------------------------
-% Languages
-%-------------------------------------------------------------------------------
-
-\begin{rSection}{Languages}
-
-\begin{center}
-\begin{tabular}{ c c c c c c }
- \textbf{English} & \textbf{Japanese} & \textbf{Chinese} & \textbf{French} &
- \textbf{Spanish} & \textbf{German} \\
- Native & Fluent (C1) & Intermediate (B2) & Basic (B1) & Basic (A2) & Basic (A2)
-\end{tabular}
-\end{center}
+  \item \textbf{\textit{LApps}} Made an Android mobile app for retail and
+    restaurants with automated cloud deployment and back-end.
+  \item \textbf{\textit{Symboard}} Creates installable keyboard layouts from
+    user-defined specs. Supports all EU languages.
+  %\item \textbf{\textit{MVL (Multi Valued Logic)}} Implements multi valued logic
+  %  systems in python.
+  %\item \textbf{\textit{FlowMonster}} Designed and wrote a trading robot to
+  %  compete in market simulations against other teams. Won in my team's
+  %  division and progressed to the finals.
+  \item \textbf{\textit{An investigation into membership inference attacks on
+    big data (BEng thesis)}} -- \textit{First class honors} Implemented,
+    optimized, and analyzed an attack on user privacy using ML. Reduced run time
+    by 75 \%, leaked info about individual taxi locations in data sets of >
+    30,000 taxis, and added defenses which negate this attack.
+  \item \textbf{\textit{Quest.io}} Made a cross platform app using
+    React Native, mongoDB, and Google APIs for tourist groups to plan daily
+    travel routes. Implemented voting, a chat, and a route planning algorithm.
+  %\item \textbf{\textit{Pintos} (C)} Built on top of a legacy code base in
+  %  order to produce a fully functional concurrent OS.
+  %\item \textbf{\textit{PlugInBaby} (Python, node.js)} An IOTA (IoT
+  %  cryptocurrency) application which finds charging stations and
+  %  automatically transacts for electricity on the IOTA tangle. Winning project
+  %  of IOTA Hack 2017.
+  %\item \textbf{\textit{WACC compiler} (C)} Designed and built a compiler and
+  %  code-generator from WACC into Arm11.
+  %\item \textbf{\textit{Arm11 compiler} (C)} Built a compiler into C for the
+  %  Arm11 language with code compiling on a raspberry pi.
+  \item \textbf{\textit{Built and launched an H-class high powered rocket}}.
+    Apogee was reached at 1.5 km before returning to ground in a
+    state fit for reuse. I keep the rocket in my living room.
 
 \end{rSection}
 
-%-------------------------------------------------------------------------------
-% Technical skills
-%-------------------------------------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% End Projects %%
+%% Begin Technical skills %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{rSection}{Technical skills}
-    \item \textbf{Software Langs:}
-        Assembly,
-        C,
-        CSS,
-        HTML,
-        Haskell,
-        Java,
-        Javascript,
-        Prolog,
-        Python,
-        Scala,
-        (no)SQL,
-        \LaTeX
-    \item \textbf{Software Tools:}
-        % Programs
-        Emacs,
-        JetBrains IDEs,
-        MS Office,
-        Vim
-        % OS
-        Linux,
-        MacOS,
-        Windows,
-        % Packages
-        Git,
-        %Jupyter notebook,
-        Node.js,
-        React (Native)
-    %\item \textbf{Typing:} 135 wpm (eng), 100 wpm (jpn)
+\begin{rSection}{Skills}
+
+  \begin{center}
+  \begin{tabular}{ c c c c c c c }
+   \textbf{English} & \textbf{Japanese} & \textbf{Chinese} & \textbf{French} &
+    \textbf{Spanish} & \textbf{Polish} & \textbf{German} \\
+    Native & Fluent (C2) & Intermediate (B2) & Intermediate (B1) & Basic (A2) & Basic
+    (A2) & Basic (A2)
+  \end{tabular}
+  \end{center}
+
+  \item \textbf{Expert in}
+    Kotlin;
+    Spring boot;
+    Android;
+    Python;
+    Django;
+    DRF;
+    Java;
+    C;
+    %\LaTeX,
+    Linux;
+    SQL;
+    UNIX;
+    %Windows;
+    Git;
+    %Jupyter notebook,
+    %Vim,
+    Cloud foundry,
+
+  %\item \textbf{In-depth knowledge of}
+    %CSS,
+    %Haskell,
+    %Prolog,
+    %Scikit-learn,
+    %Gnu bison,
+
+  \item \textbf{Experience with}
+    R,
+    %x86 Assembly,
+    Javascript;
+    Mobile, web front end;
+    noSQL;
+    Kafka;
+    Azure cloud stack;
+    AWS;
+    React (native);
+
+  %\item \textbf{Core competencies}:
+  %  Agile;
+  %  Data science;
+  %  Network, web, app security;
+  %  Project management;
+  %  Cloud
+
+  %\item \textbf{Typing}: 135 wpm (eng), 100 wpm (jpn)
+
+  \item \textbf{First aid}
+
 \end{rSection}
 
-%----------------------------------------------------------------------------------------
-% Other
-%----------------------------------------------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% End Technical skills %%
 
 \end{document}
