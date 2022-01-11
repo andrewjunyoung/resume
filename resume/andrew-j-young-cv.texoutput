@@ -1,0 +1,42 @@
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./andrew-j-young-cv.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-03-06> (./resume.cls
+Document Class: resume 2010/07/10 v0.9 Resume class
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/base/size10.clo))
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/parskip/parskip.sty
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2020basic/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2020basic/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty))
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/etoolbox/etoolbox.sty))
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/tools/array.sty)
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/base/ifthen.sty))
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2020basic/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/local/texlive/2020basic/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/tools/multicol.sty)
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfm
+x.def)
+
+LaTeX Warning: Unused global option(s):
+    [8pt].
+
+(./andrew-j-young-cv.aux)
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/base/ts1cmr.fd)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+
+Overfull \hbox (30.0pt too wide) in paragraph at lines 26--26
+[] 
+
+Overfull \hbox (14.28006pt too wide) in paragraph at lines 34--39
+ [] 
+[1] (./andrew-j-young-cv.aux) )
+(see the transcript file for additional information)
+Output written on andrew-j-young-cv.pdf (1 page).
+Transcript written on andrew-j-young-cv.log.
