@@ -37,7 +37,7 @@
 
 \def \addressSep {$\diamond$} % Set default address separator to a diamond
 
-% One, two or three address lines can be specified
+% One, two or three address lines can be specified 
 \let \@addressone \relax
 \let \@addresstwo \relax
 \let \@addressthree \relax
@@ -120,7 +120,7 @@
    \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
   }{
   \end{list}
-  \vspace{0.2em} % Some space after the list of bullet points
+  \vspace{0.5em} % Some space after the list of bullet points
 }
 
 % The below commands define the whitespace after certain things in the document - they can be \smallskip, \medskip or \bigskip
