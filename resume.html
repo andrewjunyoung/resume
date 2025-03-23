@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andrew J. Young - Resume</title>
+    <style>
+      /* Base styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background-color: #f5f5f5;
+        padding: 20px;
+      }
+
+      /* Resume container */
+      .resume {
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: white;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        padding: 40px;
+      }
+
+      /* Header */
+      .header {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      .header h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+        color: #2c3e50;
+      }
+
+      .contact-info {
+        color: #7f8c8d;
+        font-size: 16px;
+      }
+
+      /* Section styling */
+      .section {
+        margin-bottom: 30px;
+      }
+
+      .section-title {
+        font-size: 24px;
+        margin-bottom: 15px;
+        color: #2c3e50;
+        border-bottom: 2px solid #e0e0e0;
+        padding-bottom: 5px;
+      }
+
+      /* Experience entries */
+      .experience-entry {
+        margin-bottom: 20px;
+      }
+
+      .experience-header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+      }
+
+      .company {
+        font-weight: bold;
+        font-size: 18px;
+        color: #2c3e50;
+      }
+
+      .location {
+        color: #7f8c8d;
+      }
+
+      .job-details {
+        display: flex;
+        justify-content: space-between;
+        font-style: italic;
+        margin-bottom: 10px;
+        color: #34495e;
+      }
+
+      /* Lists */
+      ul {
+        list-style-position: inside;
+        margin-left: 10px;
+      }
+
+      li {
+        margin-bottom: 5px;
+      }
+
+      /* Skills section */
+      .skills-category {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .skill-column {
+        flex: 1;
+      }
+
+      .skill-column h3 {
+        margin-bottom: 5px;
+        color: #2c3e50;
+      }
+
+      .skill-column p {
+        color: #7f8c8d;
+      }
+
+      .skill-list {
+        margin-bottom: 10px;
+      }
+
+      .skill-list span:first-child {
+        font-weight: bold;
+        margin-right: 5px;
+      }
+
+      /* Responsive adjustments */
+      @media (max-width: 600px) {
+        .resume {
+          padding: 20px;
+        }
+
+        .experience-header,
+        .job-details {
+          flex-direction: column;
+        }
+
+        .skills-category {
+          flex-direction: column;
+          text-align: left;
+        }
+
+        .skill-column {
+          margin-bottom: 15px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="resume">
+      <div class="header">
+        <h1>Andrew J. Young</h1>
+        <div class="contact-info">
+          andrewjunyoung1@gmail.com • linkedin.com/in/andrewjunyoung/
+        </div>
+      </div>
+
+      <div class="section">
+        <h2 class="section-title">Experience</h2>
+
+        <div class="experience-entry">
+          <div class="experience-header">
+            <div class="company">Amazon Web Services (AWS)</div>
+            <div class="location">New York, NY</div>
+          </div>
+          <div class="job-details">
+            <div>Lead Software Developer, Telco Prototyping</div>
+            <div>Jun 2022 - Present</div>
+          </div>
+          <ul>
+            <li>
+              Manage a team of 6 software devs, run customer discovery,
+              prioritize and plan projects to align with business priorities.
+              Report to head of Telco Emerging Technologies
+            </li>
+            <li>
+              Research & decide what new products and solutions to build, and
+              allocate resources
+            </li>
+            <li>
+              Develop software solutions for global telcos, as an individual contributor
+              over 12-week projects
+            </li>
+            <li>
+              Double down on successful projects to develop these into full
+              solutions & scale across customers.
+            </li>
+            <li>
+              Major focus on GenAI / LLMs; ML; speech-to-speech models; model
+              training; networks; and root cause analysis. Also: OSS/BSS; 5G;
+              6G; cloud; IaC; Data Mesh; Contact Center solutions
+            </li>
+          </ul>
+        </div>
+
+        <div class="experience-entry">
+          <div class="experience-header">
+            <div class="company">Gordian Software</div>
+            <div class="location">New York, NY</div>
+          </div>
+          <div class="job-details">
+            <div>Technical Project Manager</div>
+            <div>Feb 2022 - Jun 2022</div>
+          </div>
+          <ul>
+            <li>
+              Built software enabling travel companies to launch product
+              offerings, specialized in flight ancillaries including seats,
+              bags, priority boarding
+            </li>
+            <li>
+              Led end-to-end software development, development of new products,
+              discovery and fixing revenue leakage and outages, ran hiring, and
+              managed a team of 3 developers
+            </li>
+          </ul>
+        </div>
+
+        <div class="experience-entry">
+          <div class="experience-header">
+            <div class="company">Entrepreneur First</div>
+            <div class="location">Toronto, Canada</div>
+          </div>
+          <div class="job-details">
+            <div>CTO in residence</div>
+            <div>Sep 2021 - Jan 2022</div>
+          </div>
+          <ul>
+            <li>
+              Built frictionless mobile checkout experience for quick service
+              businesses using "apps that don't need to be downloaded to be
+              used".
+            </li>
+            <li>
+              As part of an accelerator cohort of 200, I built a company with my
+              cofounder.
+            </li>
+            <li>
+              Drove customer discovery and technical implementation as a
+              co-founder
+            </li>
+          </ul>
+        </div>
+
+        <div class="experience-entry">
+          <div class="experience-header">
+            <div class="company">Sierra Compute Ltd</div>
+            <div class="location">London, UK</div>
+          </div>
+          <div class="job-details">
+            <div>CEO / CTO</div>
+            <div>Jan 2021 - Nov 2021</div>
+          </div>
+          <ul>
+            <li>
+              Developed "Lite Apps" - software to manage retail inventory.
+              Used QR codes and push notifs to trigger API calls from a users'
+              device, so inventory management is run wholly on a mobile device.
+            </li>
+            <li>
+              Ran sales ond customer outreach. Oversaw contributions from other
+              developers
+            </li>
+          </ul>
+        </div>
+
+        <div class="experience-entry">
+          <div class="experience-header">
+            <div class="company">JPMorgan Chase & Co.</div>
+            <div class="location">London, UK</div>
+          </div>
+          <div class="job-details">
+            <div>Software Developer</div>
+            <div>Sep 2019 - Dec 2020</div>
+          </div>
+          <ul>
+            <li>
+              Worked on private-cloud database management software for JPMC's 4
+              novel data centers.
+            </li>
+            <li>
+              Wrote code, tests, ran code reviews and mentored new-hire software
+              developers
+            </li>
+          </ul>
+        </div>
+      </div>
+
+        <div class="experience-entry">
+          <div class="experience-header">
+            <div class="company">Royal School of Mines at Imperial College London, Devito Group</div>
+            <div class="location">London, UK</div>
+          </div>
+          <div class="job-details">
+            <div>Research Software Developer</div>
+            <div>2017 - 2017</div>
+          </div>
+          <ul>
+            <li>
+              Created simulations and documentation for the team's "Devito"
+              software package, which automates the finite difference method for
+              prospecting offshore oil.
+            </li>
+          </ul>
+        </div>
+
+      <div class="section">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skill-list">
+          <span>Languages:</span>
+          <span>
+            English; Japanese (fluent); Chinese (C1); Spanish; French; German; Polish
+          </span>
+        </div>
+        <div class="skill-list">
+          <span>Technologies:</span>
+          <span
+            >LLMs (various); AI Agents; Computer Vision; ML; Python; JavaScript;
+            TypeScript; AWS; Cloud; AWS; Networking; Full Stack; React; Web;
+            Mobile; Management
+          </span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
