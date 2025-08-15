@@ -49,11 +49,6 @@
         margin-bottom: 8px;
       }
 
-      .education-info {
-        color: #7f8c8d;
-        font-size: 11px;
-      }
-
       /* Section styling */
       .section {
         margin-bottom: 30px;
@@ -65,6 +60,23 @@
         color: #2c3e50;
         border-bottom: 2px solid #e0e0e0;
         padding-bottom: 5px;
+      }
+
+      /* Education entries */
+      .education-entry {
+        margin-bottom: 20px;
+      }
+
+      .institution {
+        font-weight: bold;
+        font-size: 12px;
+        color: #2c3e50;
+      }
+
+      .education-details {
+        font-style: italic;
+        margin-bottom: 10px;
+        color: #34495e;
       }
 
       /* Experience entries */
@@ -154,7 +166,9 @@
         }
 
         .experience-header,
-        .job-details {
+        .job-details,
+        .education-header,
+        .education-details {
           flex-direction: column;
         }
 
@@ -198,48 +212,6 @@
       </div>
 
       <div class="section">
-        <h2 class="section-title">Education</h2>
-        <div class="experience-entry">
-          <div class="experience-header"/>
-          <div class="company">Mathematics & Computer Science (BEng) at Imperial College London</div>
-          <div>Class of 2019</div>
-        </div>
-        <div class="skill-list">
-          <span>Bachelor's Thesis:</span>
-          <span
-            >Machine Learning for membership inference attacks on Aggregate Telecoms Location Data with <b>Python/Tensorflow</b>
-          </span>
-        </div>
-      </div>
-
-      <div class="section">
-        <h2 class="section-title">Skills</h2>
-
-        <div class="skill-list">
-          <span>Coding:</span>
-          <span
-            >C; Python; TypeScript; JavaScript/ES6; CDK; Terraform; SQL; Swift;
-            Kotlin; Java; React; NodeJS
-          </span>
-        </div>
-        <div class="skill-list">
-          <span>Tech:</span>
-          <span
-            >LLMs; TTS/STT/speech-to-speech; AI Agents; Computer Vision; ML; AWS; Cloud;
-            Networking; Full Stack; Web; Mobile; Docker; k8s; tensorflow; XGBoost; MongoDB; Management
-          </span>
-        </div>
-        <div class="skill-list">
-          <span>Languages:</span>
-          <span>
-            English; Japanese (fluent); Chinese (C1); Spanish; French; German;
-            Polish
-          </span>
-        </div>
-      </div>
-
-
-      <div class="section">
         <h2 class="section-title">Experience</h2>
 
         <div class="experience-entry">
@@ -248,30 +220,43 @@
             <div class="location">New York, NY</div>
           </div>
           <div class="job-details">
-            <div>Lead Software Developer, Telco Prototyping</div>
+            <div>Lead Software Developer, Telecoms Solutions Engineering</div>
             <div>Jun 2022 - Present (3 yrs)</div>
           </div>
           <ul>
             <li>
-              Lead member on a greenfield team. I grew revenue from <u>0 to $100M
-              ARR in 2 years</u> by prototyping new software solutions for telcos. I
-              make investment decisions, define 12-week projects with biweekly A/B testing,
-              and participate in software development in <b>JS/TS/Python/AWS</b>
+              Lead member on a greenfield team of 6 devs, working
+              directly with customers to develop AWS solutions for
+              <b>telco networks & networking</b>
+
             </li>
             <li>
-              Lead a team of 6 software devs, run customer discovery,
-              prioritize and collaborate with customers and internal teams to deliver.
-              Report to head of Telco Emerging Technologies, with special focus on <b>AI/ML</b> and <b>LLMs</b>
+              Our past solutions use <b>Python/TS/Go/AWS/Terraform</b>,
+              including using <b>LLMs</b> and <b>ETL/MLOps pipelines</b> to
+              detect, diagnose and auto-repair 5G outages, and <b>k8s CNI
+              addons</b> to lower network latency for EKS@edge. My code is <u>in-use at
+              200+ companies</u> on AWS
             </li>
             <li>
-              Double down on successful projects to develop into full
-              solutions & scale across customers. My code is <u>in-use at 200+ companies</u> on AWS
+              Beyond development work, this includes building and maintaining
+              <b>CI/CD pipelines</b> for our solutions, monitoring, testing on
+              network-specialized hardware, on-call, and <b>benchmarking</b> our
+              solutions their whole lifecycle.
             </li>
           </ul>
           <div class="technologies">
-            <strong>Tech domains:</strong> AI/ML, Sagemaker, GenAI/LLMs,
-             Text/Speech-To-Speech, Networks, Root Cause Analysis, 5G/6G, Data Custody & Migration
-          </div>
+            <strong>Tech domains:</strong> Cloud Infrastructure, k8s,
+            Networking, ML/MLOps, LLMs, Root Cause Analysis, TTS/STT models.
+            <br/>
+            <b>Public projects I co-authored</b>:<a
+              href="https://www.youtube.com/watch?v=Pz2IlR3s8ss&t=38s">Network
+              RCA</a>,
+              <a
+                href="https://github.com/aws-samples/sample-sonic-contact-center-with-telephony">AI
+                Contact Center Tools</a> (+ <a
+                                                           href="https://aws.amazon.com/blogs/machine-learning/deploy-conversational-agents-with-vonage-and-amazon-nova-sonic/">blog</a>),
+              <a href="https://aws.amazon.com/solutions/guidance/multi-provider-generative-ai-gateway-on-aws/">LLM
+                Gateway</a>, and EKS addons: Longhorn, SRIOV, Multus
         </div>
 
         <div class="experience-entry">
@@ -280,7 +265,7 @@
             <div class="location">New York, NY</div>
           </div>
           <div class="job-details">
-            <div>Technical Project Manager</div>
+            <div>Software Developer</div>
             <div>Feb 2022 - Jun 2022 (5 mos)</div>
           </div>
           <ul>
@@ -291,12 +276,12 @@
             </li>
             <li>
               Wrote <b>Python/AWS/SQL</b> integrations into <b>GDS</b>, developed
-              new products, and cut revenue leakage. <u>Cut COGS by 15% (200k est) in 3
-              months</u>
+              new products, and cut revenue leakage. <u>Cut COGS by 15% (200k est) in 3 mos
+              </u>
             </li>
             <li>
-              Did on-call firefighting, hired software devs, and managed a
-              team of 3 devs writing scalable integrations into <u>50+ airlines</u>
+              Managed & hired for a team of 3 software devs writing scalable
+              integrations into <u>50+ airlines</u>, and did on-call firefighting
             </li>
           </ul>
         </div>
@@ -304,7 +289,7 @@
         <div class="experience-entry">
           <div class="experience-header">
             <div class="company">
-              Various Startups (Sierra Compute Ltd, Entrepreneur First)
+              Various Startups (Entrepreneur First, Sierra Compute Ltd)
             </div>
             <div class="location">London, UK; Toronto, ON</div>
           </div>
@@ -315,15 +300,14 @@
           <ul>
             <li>
               As part of a 100 person accelerator cohort, I co-created a company
-              to provide frictionless <b>mobile</b> checkout & payments with
-              "apps that don't need to be downloaded to be used".
+              to provide frictionless <b>mobile</b> checkout & payments using PWA/App Clips
             </li>
             <li>
-              Wrote <b>computer vision, web & mobile apps, and AWS apps in Kotlin/Swift/Retool</b> to
+              Wrote <b>computer vision (pytorch), web & mobile apps, and AWS in Kotlin</b> to
               trigger inventory API calls to <b>MongoDB</b>
             </li>
             <li>
-              Ran sales ond customer outreach, customer discovery, and technical
+              Ran sales and customer outreach, customer discovery, and technical
               implementation. Oversaw contributions from other developers
             </li>
           </ul>
@@ -340,45 +324,37 @@
           </div>
           <ul>
             <li>
-              Worked on on-prem private-cloud database management software for
-              JPMC's data centers using <b>Python/Django</b>.
-              0 to prod in 3 mos
-            </li>
-            <li>
               Optimized overnight batch processes for company-wide price calculations using
               <b>C/Python</b>
+            </li>
+            <li>
+              Worked on on-prem private-cloud database management & provisioning
+              tools for data centers using <b>Python/Django</b>.
+              0 to prod in 3 mos
             </li>
           </ul>
         </div>
 
-        <div class="experience-entry">
+      <div class="section">
+        <h2 class="section-title">Education</h2>
+        <div class="education-entry">
           <div class="experience-header">
-            <div class="company">
-              Royal School of Mines at Imperial College London, Devito Group
-            </div>
-            <div class="location">London, UK</div>
+          <div class="institution">Mathematics & Computer Science (BEng) at Imperial College London</div>
+          <div class="location">Class of 2019</div>
           </div>
-          <div class="job-details">
-            <div>Research Software Developer</div>
-            <div>May 2017 - Aug 2017 (4 mos)</div>
+          <div>
+            <i><b>Thesis:</b> Machine Learning Membership Inference Attacks on Aggregated Location Data</i> - using <b>PyTorch/Python</b> on telecoms location data
           </div>
-          <ul>
-            <li>
-              Created and optimized high-performance compute simulations in
-              <b>C/Python</b> and documentation for the team's "Devito" software
-              package, which automates the finite difference method for
-              prospecting offshore oil.
-            </li>
-          </ul>
         </div>
- 
+      </div>
+
+
         <div class="section">
           <h2 class="section-title">Major Contributions</h2>
           <div class="skill-list">
-            <span>Speaker + 2 demos at Amazon re:Invent 2024:</span>
+            <span>Amazon re:Invent '23 & '24 (Speaker + 4 demos):</span>
             <span>
-              Presented on stage to 90 telco execs about Breaking Barriers using
-              GenAI.
+              Presented on stage to 90 telco execs about GenAI.
               <a href="https://www.youtube.com/watch?v=Fyh5C067WQA&t=1991s"
                 >On-stage</a
               >
@@ -386,14 +362,52 @@
               <a href="https://www.youtube.com/watch?v=Pz2IlR3s8ss&t=2159s"
                 >Demo</a
               >
+              /
+              <a href="https://www.youtube.com/watch?v=ye9IvvrTs9Y">Demo</a>
             </span>
           </div>
           <div class="skill-list">
-            <span>2 demos at Amazon re:Invent 2023:</span>
+            <span
+              >Hackathon Organizer; Judge</span
+            >
             <span>
-              Led the development of 2 demos for AWS booths.
-              <a href="https://www.youtube.com/watch?v=ye9IvvrTs9Y">Demo</a>
+              Organized a
+              <a href="https://aws.amazon.com/telecom/breaking-barriers/"
+                >hackathon</a
+              >
+              sponsored by Amazon; Nvidia; AT&T; UT Dallas with 200+ attendees
             </span>
+          </div>
+          <div class="skill-list">
+            <span>Telecoms Standards:</span>
+            <span>
+              Contributor and specialist for TMForum
+              <a href="https://github.com/tmforum-oda/oda-canvas">
+                ODA Canvas
+              </a
+              >
+            </span>
+            /
+            <span>Amazon Solution Guidance</span>
+            <span>
+              <a
+                href="https://aws.amazon.com/solutions/guidance/multi-provider-generative-ai-gateway-on-aws/">LLM
+                API Gateway</a>
+            </span>
+          <div class="skill-list">
+            <span>Open Source:</span>
+            <span>
+              <a href="https://github.com/aws-samples/sample-sonic-cdk-agent"
+                >AI Contact Center with Analytics</a
+              >
+            </span>
+                /
+            <span>
+              <a href="https://github.com/aws-samples/sample-sonic-contact-center-with-telephony"
+                >AI Contact Center with Telephony</a
+              >
+            </span>
+              In-use by 200+ industrial customers.
           </div>
           <div class="skill-list">
             <span>Built and launched an H-class high-powered rocket</span>
@@ -402,65 +416,34 @@
               for reuse
             </span>
           </div>
-          <div class="skill-list">
-            <span
-              >Organizer; Co-host; Judge at Breaking Barriers Hackathon
-              '25:</span
-            >
-            <span>
-              A 200+ person
-              <a href="https://aws.amazon.com/telecom/breaking-barriers/"
-                >hackathon</a
-              >
-              sponsored by Amazon; AT&​T; Nvidia; UT Dallas
-            </span>
-          </div>
-          <div class="skill-list">
-            <span>Open Source Software; Telecoms Standards:</span>
-            <span>
-              Contributor and specialist for TMForum's
-              <a href="https://github.com/tmforum-oda/oda-canvas">
-                ODA Canvas</a
-              >
-            </span>
-          </div>
-          <div class="skill-list">
-            <span>Open Source Software:</span>
-            <span>
-              Co-authored
-              <a href="https://github.com/aws-samples/sample-sonic-cdk-agent"
-                >AI-powered Contact Center with live Analytics.</a
-              >
-              In-use by 200+ industrial customers.
-            </span>
-          </div>
-          <div class="skill-list">
-            <span>Open Source Software:</span>
-            <span>
-              Primary author for
-              <a href="https://github.com/aws-samples/sample-sonic-contact-center-with-telephony"
-                >Contact Center Telephony Conferencing with AI and analytics.</a
-              >
-              In-use by 10+ industry customers
-            </span>
-          </div>
-          <div class="skill-list">
-            <span>Open Source Software; Amazon Solution Guidance:</span>
-            <span>
-              Co-authored a 
-              <a href="https://aws.amazon.com/solutions/guidance/multi-provider-generative-ai-gateway-on-aws/">software gateway</a>
-              for dynamic switching between LLMs
-            </span>
-          </div>
-          <div class="skill-list">
-            <span>Winner at IOTA Hack:</span>
-            <span>
-              Our team built a mobile app which finds and settles for charging
-              stations using smart contracts
-            </span>
-          </div>
         </div>
       </div>
+
+      <div class="section">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skill-list">
+          <span>Coding:</span>
+          <span
+            >C; Python; TypeScript; Go; JavaScript; CDK; Terraform; SQL;
+            Kotlin; Java; React; NodeJS
+          </span>
+        </div>
+        <div class="skill-list">
+          <span>Tech:</span>
+          <span
+            >AWS; Cloud; Networking; k8s; Docker; Full Stack; LLMs; TTS/STT/speech-to-speech; ML;
+            tensorflow; XGBoost; Postgres; MongoDB
+          </span>
+        </div>
+        <div class="skill-list">
+          <span>Languages:</span>
+          <span>
+            English; Japanese (fluent); Chinese (C1); Spanish; French; Polish
+          </span>
+        </div>
+      </div>
+
     </div>
   </body>
 </html>
